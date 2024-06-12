@@ -1,0 +1,43 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Pranjal Goyal Coding Blog'
+theme = "hugo-blog-awesome"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Pranjal7852"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/PRANJALGOYAL6"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://www.instagram.com/goyalpranjal_/"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/pranjal-goyal-42a7a55b/"
+
+[params]
+    author = { name = "Pranjal Goyal", avatar = "avatar.jpg", intro = "Hi, my name is Pranjal Goyal.",   description = "I'm a Full Stack Developer with a serious passion for UI effects, animations and creating intuitive user experiences with highly scalable backend. I believe in sharing, learning and growing together. Extremely motivated to develop my skills constantly and grow professionally. Fun fact: I love photography and skateboarding.", resume = "https://drive.google.com/file/d/1kOIWEGziAaIksVqrmwDC7hl-ijTMHfNM/view"  }
+  goToTop = true
+
+[menu]
+  [[menu.main]]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef="portfolio"
+    name = 'Portfolio'
+    url = 'https://pranjalgoyal.site/'
+    weight = 30

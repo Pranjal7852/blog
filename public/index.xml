@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pranjal Goyal Coding Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Pranjal Goyal Coding Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2024 23:42:13 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 11 Jun 2024 23:42:13 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      
+      <description>dcvdcdc dcvdcdc dcvdcdc dcvdcdc dcvdcdc dcvdcdc dcvdcdc This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo</description>
+      
+    </item>
+    
+  </channel>
+</rss>
