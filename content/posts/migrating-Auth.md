@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-![Auth System Migration with supertoken](/images/auth-supertokens.jpg)
+![Auth System Migration with supertoken](https://supertokens.com/static/7ca7302027abfbaef1527fd5e343ab2e/c5bb3/supertokens-logo.png)
 
 Shortly after joining a Bangalore startup after college, due to my previous experience in working with auth systems, I was given the task to change the current auth system from admin-secret based to a token-based auth system. with our prod server having an active user base of 5000 plus users daily.
 

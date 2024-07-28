@@ -8,13 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Seamless Auth System Migration</title>
+      <title>Seamless Auth System Migration with Supertokens</title>
       <link>http://localhost:1313/posts/migrating-auth/</link>
       <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/migrating-auth/</guid>
       
-      <description>Auth System Migration After joining a Bangalore startup after college, due to my previous experience in working with auth systems, I was given the task to change the current auth system from admin-secret based to a token-based auth system. Note, our prod server has 5000 active users daily.
+      <description>Shortly after joining a Bangalore startup after college, due to my previous experience in working with auth systems, I was given the task to change the current auth system from admin-secret based to a token-based auth system. with our prod server having an active user base of 5000 plus users daily.
 Adding more spice to the curry, since the app is used by children, we don’t want them to be redirected to a login screen after the new auth system is implemented.</description>
       
     </item>
