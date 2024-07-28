@@ -6,26 +6,39 @@
     <description>Recent content in Posts on Pranjal Goyal Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 00:27:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Helloworld</title>
-      <link>http://localhost:1313/posts/helloworld/</link>
-      <pubDate>Thu, 13 Jun 2024 00:27:00 +0530</pubDate>
+      <title>Seamless Auth System Migration</title>
+      <link>http://localhost:1313/posts/migrating-auth/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/helloworld/</guid>
+      <guid>http://localhost:1313/posts/migrating-auth/</guid>
       
-      <description>this is second blog</description>
+      <description>Auth System Migration After joining a Bangalore startup after college, due to my previous experience in working with auth systems, I was given the task to change the current auth system from admin-secret based to a token-based auth system. Note, our prod server has 5000 active users daily.
+Adding more spice to the curry, since the app is used by children, we don’t want them to be redirected to a login screen after the new auth system is implemented.</description>
       
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 11 Jun 2024 23:42:13 +0530</pubDate>
+      <title>Enhancing User Experience: Using Emojis in Web App URLs</title>
+      <link>http://localhost:1313/posts/emojiintheurl/</link>
+      <pubDate>Mon, 17 Jun 2024 00:56:18 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/emojiintheurl/</guid>
       
-      <description>dcvdcdc dcvdcdc dcvdcdc dcvdcdc dcvdcdc dcvdcdc dcvdcdc This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo This is example of my first post in hugo</description>
+      <description>🚀 Enhancing User Experience: Using Emojis in Web App URLs Introduction Emojis have become a significant part of digital communication, bringing a fun and expressive element to text. In web development, enhancing user experience and engagement is crucial. One creative way to achieve this is by integrating emojis into URL routes. This article explores the concept, benefits, and implementation of emojis in URL routes for your next web app project.</description>
+      
+    </item>
+    
+    <item>
+      <title>helloWorld</title>
+      <link>http://localhost:1313/posts/helloworld/</link>
+      <pubDate>Tue, 21 May 2024 00:27:00 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/helloworld/</guid>
+      
+      <description>Hey readers! I&amp;rsquo;m thrilled to start documenting my learning journey as a web developer, and this blog marks the beginning of that adventure. From now on, I will be sharing my experiences, challenges, and progress as a full stack developer.
+Why Hugo? You might wonder why I chose Hugo over a more complex web framework. The answer is simple: for a static application like this, Hugo is not only sufficient but also highly efficient.</description>
       
     </item>
     
