@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Navigator API | Pranjal Goyal Coding Blog</title>
+<meta property="og:title" content="Navigator API | Pranjal Goyal Coding Blog" />
+<meta name="twitter:title" content="Navigator API | Pranjal Goyal Coding Blog" />
+<meta itemprop="name" content="Navigator API | Pranjal Goyal Coding Blog" />
+<meta name="application-name" content="Navigator API | Pranjal Goyal Coding Blog" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
+
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/navigator-api/" title="" />
+
+
+
+  <meta itemprop="image" content="http://localhost:1313/" />
+  <meta property="og:image" content="http://localhost:1313/" />
+  <meta name="twitter:image" content="http://localhost:1313/" />
+  <meta name="twitter:image:src" content="http://localhost:1313/" />
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2024-08-08T14:53:12&#43;0530 />
+    <meta property="article:published_time" content=2024-08-08T14:53:12&#43;0530 />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Navigator API",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2024-08-08",
+        "description": "",
+        "wordCount":  641 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2024-08-08",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Pranjal Goyal Coding Blog"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.127.0">
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/posts/navigator-api/">
+    <link href="/style.min.d2706980312dbda4e74456e374d45c8c3ebbe06af801b11f391cc9995bd294b2.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    </head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+   
+    <nav class="menu" aria-label="Main Navigation">
+
+        <a href="http://localhost:1313/" class="logo">
+           
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      
+        <label for="menu-trigger">
+          
+            <a href="http://localhost:1313/" class="blog-link">
+                <span class="blog-title">&lt;pranjalGoyal_blogs/&gt;</span>
+            </a>
+           
+        </label>
+   
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Posts
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="https://pranjalgoyal.dev/">
+                        Portfolio
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Navigator API</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-08-08T14:53:12&#43;05:30" itemprop="datePublished"> Aug 8, 2024 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <h1 id="navigator-api---more-than-meets-the-eye">Navigator API - More than meets the Eye</h1>
+<p>For those who don’t know, the Navigator API is a native API available in all browsers that provides user-centric metrics for your website. It offers insights into how your high-value site is performing. Some may use it to customize the interface for different platforms, such as displaying premium items to iOS users, but its main purpose is to understand how your code behaves across different user environments and internet speeds, including ping. This helps developers diagnose and recreate issues to solve them more effectively. The Navigator API also provides CPU heap statistics, which reveal how CSS effects impact users&rsquo; CPU threads.</p>
+<p>By now, you might have a better understanding of what the Navigator API is and why it’s valuable. Let’s see how to incorporate it into your million dollar web app.</p>
+<hr>
+<p>For practical use—specifically the task I was assigned—we use Sentry for our app, which does an excellent job tracking errors. However, knowing about an error is only part of the story; additional information is crucial for effective troubleshooting. Key statistics like network speed at the time of the error, heap size, or RAM usage on the device are needed.</p>
+<p>Let’s address the key aspects one by one:</p>
+<ol>
+<li><strong>Environment/Model - <code>navigator.userAgent</code></strong></li>
+</ol>
+<p>This is the most crucial information. It reveals details about the operating system on which the web page is being viewed, as well as key information about the manufacturer, platform, and web view version.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">userAgent</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">userAgent</span>;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">userAgent</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//console output
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//      {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;isVirtual&#34;: false,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;manufacturer&#34;: &#34;Google Inc.&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;model&#34;: &#34;Macintosh&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;operatingSystem&#34;: &#34;mac&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;osVersion&#34;: &#34;10.15.7&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;platform&#34;: &#34;web&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;webViewVersion&#34;: &#34;127.0.0.0&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//       },
+</span></span></span></code></pre></div><ol>
+<li>CPU heap Size - ``</li>
+</ol>
+<p>The memory heap is the portion of memory allocated to the JavaScript runtime to store all objects, strings, and data structures. In simple terms, the more memory allocated, the more processing power your processor will need to handle the calculations and data management.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">userCPUHeap</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">performance</span>.<span style="color:#a6e22e">memory</span>;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">userCPUHeap</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//console output
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//  {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;totalJSHeapSize&#34;: 124342323 Bytes,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;totalJSHeapSize&#34;: 66605138 Bytes,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//         &#34;usedJSHeapSize&#34;: 51178854 Bytes,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//   },
+</span></span></span></code></pre></div><ol>
+<li>RAM</li>
+</ol>
+<p>This gives the at-least physical hardware RAM memory in GB of the user machine. Unlike JS heap size it value is is in range [2,3,4,8]. For devices greater than 8 this method with return 8 .</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">userPhysicalRAM</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">deviceMemory</span>;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">userPhysicalRAM</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//console output
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//  {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//  RAM: 8
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//  }
+</span></span></span></code></pre></div><ol>
+<li>Network Stats</li>
+</ol>
+<p>If you want to measure the user&rsquo;s network speed while loading your website, this is a key statistic for tracking and monitoring your web vitals based on the user&rsquo;s average network speed. While one method is to download a test file of known size and measure the time taken for the operation, this approach can increase the app size and waste user resources.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">networkInfo</span> <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;connection&#34;</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">navigator</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">?</span> <span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">connection</span> <span style="color:#f92672">||</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">mozConnection</span> <span style="color:#f92672">||</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">webkitConnection</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">:</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">userNetworkInfo</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">effectiveType</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">networkInfo</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">networkInfo</span>.<span style="color:#a6e22e">effectiveType</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Not available&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">downlink</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">networkInfo</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">networkInfo</span>.<span style="color:#a6e22e">downlink</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Not available&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">rtt</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">networkInfo</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">networkInfo</span>.<span style="color:#a6e22e">rtt</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Not available&#34;</span>,
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">userNetworkInfo</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Example console output
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//   effectiveType: &#39;4g&#39;, Network Type of user Wifi or Band
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//   downlink: 10, This is the avg Speed calculated by Chrome
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//   rtt: 50
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// }
+</span></span></span></code></pre></div><p>The <code>downlink</code> field provides the approximate bandwidth of the client&rsquo;s connection to the server, measured in Mbps, while the <code>RTT</code> field estimates the round-trip time in milliseconds (ms) for the network.</p>
+<p>For practical purposes, these metrics are essential for tracking user performance. Remember to append this data to your Mixpanel events for comprehensive data analytics which we did in our systems.</p>
+<p><strong>Alert 🍎 (For Apple enthusiasts):</strong> Due to privacy constraints, some API endpoints are not supported by Safari. This means you won’t be able to obtain certain information, such as network speed, RAM, or CPU heap size, as of now. Good luck with that! 😊</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/Pranjal7852" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://twitter.com/PRANJALGOYAL6" target="_blank" rel="noopener noreferrer me"
+    title="Twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
+</a>
+<a href="https://www.instagram.com/goyalpranjal_/" target="_blank" rel="noopener noreferrer me"
+    title="Instagram">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+</svg>
+</a>
+<a href="https://www.linkedin.com/in/pranjal-goyal-42a7a55b/" target="_blank" rel="noopener noreferrer me"
+    title="Linkedin">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2024 Pranjal Goyal.
+        
+    </small>
+</footer><a href="#" title="" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

@@ -6,7 +6,18 @@
     <description>Recent content on Pranjal Goyal Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Aug 2024 14:53:12 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Navigator API</title>
+      <link>http://localhost:1313/posts/navigator-api/</link>
+      <pubDate>Thu, 08 Aug 2024 14:53:12 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/navigator-api/</guid>
+      
+      <description>Navigator API - More than meets the Eye For those who don’t know, the Navigator API is a native API available in all browsers that provides user-centric metrics for your website. It offers insights into how your high-value site is performing. Some may use it to customize the interface for different platforms, such as displaying premium items to iOS users, but its main purpose is to understand how your code behaves across different user environments and internet speeds, including ping.</description>
+      
+    </item>
+    
     <item>
       <title>Seamless Auth System Migration with Supertokens</title>
       <link>http://localhost:1313/posts/migrating-auth/</link>
@@ -26,7 +37,8 @@ Adding more spice to the curry, since the app is used by children, we don’t wa
       
       <guid>http://localhost:1313/posts/emojiintheurl/</guid>
       
-      <description>🚀 Enhancing User Experience: Using Emojis in Web App URLs Introduction Emojis have become a significant part of digital communication, bringing a fun and expressive element to text. In web development, enhancing user experience and engagement is crucial. One creative way to achieve this is by integrating emojis into URL routes. This article explores the concept, benefits, and implementation of emojis in URL routes for your next web app project.</description>
+      <description>Introduction Emojis have become a significant part of digital communication, bringing a fun and expressive element to text. In web development, enhancing user experience and engagement is crucial. One creative way to achieve this is by integrating emojis into URL routes. This article explores the concept, benefits, and implementation of emojis in URL routes for your next web app project.
+Understanding URL Routes URL routes are the paths defined in your web application that map to different content or functionality.</description>
       
     </item>
     

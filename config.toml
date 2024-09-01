@@ -39,5 +39,5 @@ url = "https://www.linkedin.com/in/pranjal-goyal-42a7a55b/"
   [[menu.main]]
     pageRef="portfolio"
     name = 'Portfolio'
-    url = 'https://pranjalgoyal.site/'
+    url = 'https://pranjalgoyal.dev/'
     weight = 30

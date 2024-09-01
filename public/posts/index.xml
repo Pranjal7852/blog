@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Pranjal Goyal Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Aug 2024 14:53:12 +0530</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Navigator API</title>
+      <link>http://localhost:1313/posts/navigator-api/</link>
+      <pubDate>Thu, 08 Aug 2024 14:53:12 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/navigator-api/</guid>
+      
+      <description>Navigator API - More than meets the Eye For those who don’t know, the Navigator API is a native API available in all browsers that provides user-centric metrics for your website. It offers insights into how your high-value site is performing. Some may use it to customize the interface for different platforms, such as displaying premium items to iOS users, but its main purpose is to understand how your code behaves across different user environments and internet speeds, including ping.</description>
+      
+    </item>
+    
     <item>
       <title>Seamless Auth System Migration with Supertokens</title>
       <link>http://localhost:1313/posts/migrating-auth/</link>

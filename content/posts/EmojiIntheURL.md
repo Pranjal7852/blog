@@ -4,8 +4,6 @@ date = 2024-06-17T00:56:18+05:30
 draft = false
 +++
 
-# 🚀 Enhancing User Experience: Using Emojis in Web App URLs
-
 ## Introduction
 
 Emojis have become a significant part of digital communication, bringing a fun and expressive element to text. In web development, enhancing user experience and engagement is crucial. One creative way to achieve this is by integrating emojis into URL routes. This article explores the concept, benefits, and implementation of emojis in URL routes for your next web app project.
