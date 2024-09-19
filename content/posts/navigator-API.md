@@ -1,5 +1,5 @@
 +++
-title = 'Navigator API'
+title = 'Know your user like never before using Navigator API'
 date = 2024-08-08T14:53:12+05:30
 draft = false
 +++

@@ -6,9 +6,21 @@
     <description>Recent content on Pranjal Goyal Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Aug 2024 14:53:12 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Aug 2024 16:39:47 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Navigator API</title>
+      <title>The F Pixel by Meta</title>
+      <link>http://localhost:1313/posts/meta-pixel/</link>
+      <pubDate>Tue, 20 Aug 2024 16:39:47 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/meta-pixel/</guid>
+      
+      <description>The F Pixel by Meta Yes, it&amp;rsquo;s a Facebook version of Mixpanel or a data analytics tool used to track user behavior across app, web, iOS, or any device with Chrome. The purpose is to collect user data—of course, with consent (whether to be tracked or not 🧑‍💻)—to help business owners run personalized ads and campaigns via Facebook.
+It’s as simple to use as embedding an image. This is because, theoretically, for all practical purposes, it’s just a 1px x 1px pixel embedded in your HTML DOM, along with some scripts that send data to Facebook&amp;rsquo;s servers.</description>
+      
+    </item>
+    
+    <item>
+      <title>Know your user like never before using Navigator API</title>
       <link>http://localhost:1313/posts/navigator-api/</link>
       <pubDate>Thu, 08 Aug 2024 14:53:12 +0530</pubDate>
       
