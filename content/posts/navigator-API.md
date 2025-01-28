@@ -6,6 +6,8 @@ draft = false
 
 # Navigator API - More than meets the Eye
 
+![Navigator API present inside Chrome Dev](/images/chrome_dev.png)
+
 For those who don’t know, the Navigator API is a native API available in all browsers that provides user-centric metrics for your website. It offers insights into how your high-value site is performing. Some may use it to customize the interface for different platforms, such as displaying premium items to iOS users, but its main purpose is to understand how your code behaves across different user environments and internet speeds, including ping. This helps developers diagnose and recreate issues to solve them more effectively. The Navigator API also provides CPU heap statistics, which reveal how CSS effects impact users' CPU threads.
 
 By now, you might have a better understanding of what the Navigator API is and why it’s valuable. Let’s see how to incorporate it into your million dollar web app.

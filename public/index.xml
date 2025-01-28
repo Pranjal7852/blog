@@ -6,7 +6,30 @@
     <description>Recent content on Pranjal Goyal Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2024 16:39:47 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Dec 2024 15:33:44 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Ensure Your Websites Ranks on Google</title>
+      <link>http://localhost:1313/posts/seo-google-search-console/</link>
+      <pubDate>Sat, 28 Dec 2024 15:33:44 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/seo-google-search-console/</guid>
+      
+      <description>Custom solutions to enhance Search Enginer Optimization and an Overview of Google Seach Console Imagine this: Your web app is ready to rock the world. You’ve nailed the development, deployment is flawless, and your marketing team is prepped to take the spotlight. But there’s a catch—when users Google your app’s name, your website doesn’t show up. How can users trust your app is legit? And if they want to test your product, how will they find it?</description>
+      
+    </item>
+    
+    <item>
+      <title>Why and What is SHELL?</title>
+      <link>http://localhost:1313/posts/shell-scripting/</link>
+      <pubDate>Wed, 16 Oct 2024 15:48:46 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/shell-scripting/</guid>
+      
+      <description>A Developer’s Best Friend for Linux Systems If you’ve ever deployed something on the web, you’re likely familiar with servers running Linux distributions. Unlike your local machine, these servers often lack a graphical user interface (GUI). Instead, you interact with them through a terminal window. This is where SHELL comes into play.
+SHELL is the language of Linux that allows you to interact with the system, execute commands, and automate repetitive tasks.</description>
+      
+    </item>
+    
     <item>
       <title>The F Pixel by Meta</title>
       <link>http://localhost:1313/posts/meta-pixel/</link>
